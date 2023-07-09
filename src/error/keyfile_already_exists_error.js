@@ -6,6 +6,6 @@
 
 module.exports = class KeyfileAlreadyExists extends Error {
   constructor() {
-    super('The keyfile already exists');
+    super('The keyfile already exists.');
   }
 };
